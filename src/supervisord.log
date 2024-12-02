@@ -278,3 +278,53 @@
 2024-11-28 20:18:09,539 INFO exited: queue (exit status 0; not expected)
 2024-11-28 20:18:10,542 INFO spawned: 'queue' with pid 44
 2024-11-28 20:18:11,544 INFO success: queue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-11-28 20:22:17,810 WARN received SIGQUIT indicating exit request
+2024-11-28 20:22:17,811 INFO waiting for queue_00, php-fpm to die
+2024-11-28 20:22:17,826 INFO stopped: php-fpm (exit status 0)
+2024-11-28 20:22:17,829 INFO stopped: queue_00 (terminated by SIGTERM)
+2024-11-28 20:27:34,680 WARN received SIGQUIT indicating exit request
+2024-11-28 20:27:34,680 INFO waiting for queue, php-fpm, scheduler to die
+2024-11-28 20:27:34,681 INFO stopped: scheduler (terminated by SIGTERM)
+2024-11-28 20:27:34,685 INFO stopped: php-fpm (exit status 0)
+2024-11-28 20:27:34,686 INFO stopped: queue (terminated by SIGTERM)
+2024-11-29 20:11:09,167 INFO supervisord started with pid 1
+2024-11-29 20:11:09,874 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-11-29 20:11:09,877 INFO supervisord started with pid 1
+2024-11-29 20:11:10,171 INFO spawned: 'queue' with pid 9
+2024-11-29 20:11:10,172 INFO spawned: 'php-fpm' with pid 10
+2024-11-29 20:11:10,173 INFO spawned: 'scheduler' with pid 11
+2024-11-29 20:11:10,879 INFO spawned: 'queue_00' with pid 9
+2024-11-29 20:11:10,880 INFO spawned: 'php-fpm' with pid 10
+2024-11-29 20:11:11,221 INFO success: queue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-11-29 20:11:11,221 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-11-29 20:11:11,221 INFO success: scheduler entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-11-29 20:11:11,897 INFO success: queue_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-11-29 20:11:11,897 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-11-29 20:37:03,181 WARN received SIGQUIT indicating exit request
+2024-11-29 20:37:03,193 INFO waiting for queue_00, php-fpm to die
+2024-11-29 20:37:03,210 INFO stopped: php-fpm (exit status 0)
+2024-11-29 20:37:03,214 INFO stopped: queue_00 (terminated by SIGTERM)
+2024-11-29 20:37:13,512 WARN received SIGQUIT indicating exit request
+2024-11-29 20:37:13,514 INFO waiting for queue, php-fpm, scheduler to die
+2024-11-29 20:37:14,520 INFO stopped: scheduler (terminated by SIGTERM)
+2024-11-29 20:37:14,538 INFO stopped: php-fpm (exit status 0)
+2024-11-29 20:37:14,541 INFO stopped: queue (terminated by SIGTERM)
+2024-12-02 18:02:06,610 INFO supervisord started with pid 1
+2024-12-02 18:02:07,612 INFO spawned: 'queue' with pid 9
+2024-12-02 18:02:07,613 INFO spawned: 'php-fpm' with pid 10
+2024-12-02 18:02:07,614 INFO spawned: 'scheduler' with pid 11
+2024-12-02 18:02:08,649 INFO success: queue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-02 18:02:08,649 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-02 18:02:08,649 INFO success: scheduler entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-02 18:02:50,938 WARN received SIGQUIT indicating exit request
+2024-12-02 18:02:50,938 INFO waiting for queue, php-fpm, scheduler to die
+2024-12-02 18:02:51,940 INFO stopped: scheduler (terminated by SIGTERM)
+2024-12-02 18:02:51,943 INFO stopped: php-fpm (exit status 0)
+2024-12-02 18:02:51,945 INFO stopped: queue (terminated by SIGTERM)
+2024-12-02 18:03:10,861 INFO supervisord started with pid 1
+2024-12-02 18:03:11,863 INFO spawned: 'queue' with pid 9
+2024-12-02 18:03:11,864 INFO spawned: 'php-fpm' with pid 10
+2024-12-02 18:03:11,865 INFO spawned: 'scheduler' with pid 11
+2024-12-02 18:03:12,882 INFO success: queue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-02 18:03:12,882 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-02 18:03:12,882 INFO success: scheduler entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)

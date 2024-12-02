@@ -1,5 +1,7 @@
 FROM php:7.4.9-fpm
 
+COPY php.ini /usr/local/etc/php/
+
 # 必要な拡張をインストール
 RUN apt update \
   && apt install -y default-mysql-client zlib1g-dev libzip-dev unzip libpng-dev tzdata cron supervisor \
@@ -17,7 +19,7 @@ WORKDIR /var/www
 
 # SchedulerスクリプトとSupervisor設定を追加
 COPY scheduler.sh /usr/local/bin/scheduler.sh
-COPY supervisor.conf /etc/supervisor/conf.d/supervisord.conf
+COPY supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 RUN chmod +x /usr/local/bin/scheduler.sh
 
 # Supervisorでプロセスを管理
